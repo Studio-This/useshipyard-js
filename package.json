@@ -1,0 +1,37 @@
+{
+  "name": "useshipyard-js",
+  "version": "0.0.1",
+  "description": "Safe, reversible environment migrations — move a project's database and referenced assets between any two environments, across cloud providers. (Coming soon.)",
+  "keywords": [
+    "shipyard",
+    "migration",
+    "environments",
+    "staging",
+    "production",
+    "database",
+    "s3",
+    "object-storage",
+    "rollback",
+    "backup"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "useshipyard": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Studio-This/useshipyard-js.git"
+  },
+  "homepage": "https://useshipyard.io",
+  "bugs": {
+    "url": "https://github.com/Studio-This/useshipyard-js/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ]
+}
